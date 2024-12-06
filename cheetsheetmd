@@ -1,50 +1,81 @@
-# 🌐 Ultimate JavaScript Guide 🌐
-
-This repository includes comprehensive guides on JavaScript and DOM manipulation.
-
-## **Contents**
-
-### **1. [Ultimate JavaScript DOM Guide](./DOM-Guide/README.md)**
-A complete guide to mastering DOM manipulation in JavaScript.
-
-- [DOM Selection Methods](./DOM-Guide/01_DOM_Selection.md)
-- [Element Creation & Manipulation](./DOM-Guide/02_Element_Creation_Manipulation.md)
-- [Attribute Manipulation](./DOM-Guide/03_Attribute_Manipulation.md)
-- [Class Manipulation](./DOM-Guide/04_Class_Manipulation.md)
-- [Event Handling](./DOM-Guide/05_Event_Handling.md)
-- [DOM Traversal](./DOM-Guide/06_DOM_Traversal.md)
-- [Style Manipulation](./DOM-Guide/07_Style_Manipulation.md)
-- [Document Fragment](./DOM-Guide/08_Document_Fragment.md)
-- [Advanced DOM Techniques](./DOM-Guide/09_Advanced_DOM_Techniques.md)
-- [Comprehensive Example](./DOM-Guide/10_Comprehensive_Example.md)
-- [Performance Considerations](./DOM-Guide/11_Performance_Considerations.md)
-- [Cross-Browser Compatibility](./DOM-Guide/12_Cross_Browser_Compatibility.md)
-- [Accessibility Considerations](./DOM-Guide/13_Accessibility_Considerations.md)
-
----
-
-### **2. [Ultimate JavaScript Comprehensive Guide](./Comprehensive-Guide/README.md)**
-An in-depth overview of JavaScript features and best practices.
-
-- [Fundamentals](./Comprehensive-Guide/01_Fundamentals.md)
-- [Operators](./Comprehensive-Guide/02_Operators.md)
-- [Control Structures](./Comprehensive-Guide/03_Control_Structures.md)
-- [Functions](./Comprehensive-Guide/04_Functions.md)
-- [Arrays](./Comprehensive-Guide/05_Arrays.md)
-- [Objects](./Comprehensive-Guide/06_Objects.md)
-- [Asynchronous Programming](./Comprehensive-Guide/07_Asynchronous_Programming.md)
-- [ES6+ Features](./Comprehensive-Guide/08_ES6_Features.md)
-- [Classes](./Comprehensive-Guide/09_Classes.md)
-- [Error Handling](./Comprehensive-Guide/10_Error_Handling.md)
-- [DOM Manipulation](./Comprehensive-Guide/11_DOM_Manipulation.md)
-- [Modules](./Comprehensive-Guide/12_Modules.md)
-
----
-
-
 # 🚀 Ultimate JavaScript Comprehensive Guide
 
+## **Table of Contents**
+
+1. [Fundamentals](#1-fundamentals)
+   - [Variables](#1.1-variables)
+   - [Data Types](#12-data-types)
+2. [Operators](#2-operators)
+   - [Arithmetic Operators](#21-arithmetic-operators)
+   - [Comparison Operators](#22-comparison-operators)
+   - [Logical Operators](#23-logical-operators)
+3. [Control Structures](#3-control-structures)
+   - [Conditional Statements](#31-conditional-statements)
+   - [Loops](#32-loops)
+4. [Functions](#4-functions)
+   - [Function Types](#41-function-types)
+5. [Arrays](#5-arrays)
+   - [Array Methods](#51-array-methods)
+6. [Objects](#6-objects)
+   - [Object Methods](#61-object-methods)
+7. [Asynchronous Programming](#7-asynchronous-programming)
+   - [Promises](#71-promises)
+8. [ES6+ Features](#8-es6-features)
+   - [Destructuring](#81-destructuring)
+   - [Spread & Rest Operators](#82-spread--rest-operators)
+9. [Classes](#9-classes)
+   - [Class Syntax](#91-class-syntax)
+10. [Error Handling](#10-error-handling)
+    - [Try-Catch](#101-try-catch)
+11. [DOM Manipulation](#11-dom-manipulation)
+    - [Selecting Elements](#111-selecting-elements)
+    - [Creating & Modifying Elements](#112-creating--modifying-elements)
+    - [Event Handling](#113-event-handling)
+12. [Modules](#12-modules)
+    - [Import/Export](#121-importexport)
+
+---
+
+## **1. Fundamentals**
+
+### **1.1 Variables**
+
+````javascript
+let dynamicVar = "Changeable"; // Block-scoped, reassignable
+const constantVar = "Fixed";  // Block-scoped, constant
+var globalVar = "Old Style";  // Function-scoped
+
+
+# 🚀 Ultimate JavaScript Comprehensive
+
 ## 1. Fundamentals
+## 1. Fundamentals
+
+### 1.1 Variables
+
+```javascript
+// Variable Declarations
+let dynamicVar = "Changeable"; // Block-scoped, can be reassigned
+const constantVar = "Fixed"; // Block-scoped, cannot be reassigned
+var globalVar = "Old Style"; // Function-scoped (avoid in modern JS)
+````
+
+### 1.2 Data Types
+
+- **Primitive Types**
+
+  - String: Text data
+  - Number: Numeric values
+  - Boolean: true/false
+  - Undefined: Unassigned value
+  - Null: Intentional absence of value
+  - Symbol: Unique identifier
+  - BigInt: Large integer values
+
+- **Reference Types**
+  - Object
+  - Array
+  - Function
 
 ### 1.1 Variables
 
