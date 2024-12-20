@@ -4,11 +4,15 @@ let lis = document.querySelectorAll("li");
 
 
 
-div.addEventListener("click", function () {
+div.addEventListener("click", function (event) {
+    event.stopPropagation();
     console.log("div was clicked");
 });
-ul.addEventListener("click", function () {
+
+ul.addEventListener("click", function (event) {
+    event.stopPropagation();//  it is use to stop the event bubbling
     console.log("ul was clicked");
+
 });
 
 

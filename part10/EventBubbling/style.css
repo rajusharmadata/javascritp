@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+div{
+    height:50vh;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+ul{
+    background-color: brown;
+}
+li{
+    background-color: blue;
+}
