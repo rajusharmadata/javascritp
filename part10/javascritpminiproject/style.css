@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", serif;
+
+
+}
+
+body{
+    background-color: rgb(156, 147, 147);
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 3rem;
+}
+
+input{
+    padding: 5px 70px 5px 5px;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.deletbtn{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+}

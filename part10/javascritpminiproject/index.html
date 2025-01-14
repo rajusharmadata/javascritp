@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <h1>Add Task</h1>
+    <h1>Todo-list</h1>
     <input type="text" placeholder="Enter your task">
-    <button>add-Task</button>
+    <button>
+        <i class="fa-solid fa-list-check"></i>
+    </button>
     <ul>
-        <li>sleep</li>
-        <li>eat</li>
+        <li>sleep <button class="deletbtn">delet</button></li>
+        <li>eat <button class="deletbtn">delet</button></li>
     </ul>
 
     <script src="app.js"></script>
