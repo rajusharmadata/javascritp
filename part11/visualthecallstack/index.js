@@ -1,4 +1,5 @@
-function one(){
+  // call stack 
+  function one(){
     return 1;
 }
  
