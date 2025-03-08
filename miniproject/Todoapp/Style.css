@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(122, 122, 122);
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.contaner{
+    width: 30%;
+    padding: 0px;
+    margin: 0px; 
+    margin-left: 35%;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 35%;
+}
+#add{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+   
+}
+.list-group-item{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+}
+.btn-danger{
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 80%;
+    }
+    input{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #add{
+        margin-left: 10%;
+        width: 80%;
+        align-items: center;
+        justify-content: center
+    }
+    .list-group-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #333;
+        color: white;
+    }
+    .contaner{
+        width: 90%;
+        padding: 0px;
+        margin: 0px; 
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .wrapper{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #add{
+        margin-left: 5%;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-group-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #333;
+        color: white;
+    }
+    .contaner{
+        width: 90%;
+        padding: 0px;
+        margin: 0px; 
+        margin-left: 5%;
+    }
+}
